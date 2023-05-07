@@ -1,0 +1,1 @@
+{"query":"{\n  schedule(conferenceId:\"freezing-edge-2020\",day: \"Monday\") {\n    day\n  }\n}\n","variables":null,"created_at":"2023-05-05 18:58:06","updated_at":"2023-05-05 18:58:06","times_called":1}

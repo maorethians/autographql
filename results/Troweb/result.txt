@@ -1,0 +1,33 @@
+PHPUnit 9.6.7 by Sebastian Bergmann and contributors.
+
+.............................................F.........F.......  63 / 178 ( 35%)
+.........................F..................................... 126 / 178 ( 70%)
+....................................................            178 / 178 (100%)
+
+Time: 00:03.214, Memory: 14.00 MB
+
+There were 3 failures:
+
+1) GraphQL\Q463ef48e815540519a4728d19388b648Test::testGraphQL
+Response contains errors
+Failed asserting that an array does not have the key 'errors'.
+
+/home/maorethians/autographql/tool/autographql/testCases/Q463ef48e815540519a4728d19388b648Test.php:28
+phpvfscomposer:///home/maorethians/autographql/tool/autographql/testCases/vendor/phpunit/phpunit/phpunit:106
+
+2) GraphQL\Q5d0fe497387a4589aeaca60cfbc6b904Test::testGraphQL
+Response contains errors
+Failed asserting that an array does not have the key 'errors'.
+
+/home/maorethians/autographql/tool/autographql/testCases/Q5d0fe497387a4589aeaca60cfbc6b904Test.php:28
+phpvfscomposer:///home/maorethians/autographql/tool/autographql/testCases/vendor/phpunit/phpunit/phpunit:106
+
+3) GraphQL\Q803aa80ee8ed41699152e2052914032eTest::testGraphQL
+Response contains errors
+Failed asserting that an array does not have the key 'errors'.
+
+/home/maorethians/autographql/tool/autographql/testCases/Q803aa80ee8ed41699152e2052914032eTest.php:28
+phpvfscomposer:///home/maorethians/autographql/tool/autographql/testCases/vendor/phpunit/phpunit/phpunit:106
+
+FAILURES!
+Tests: 178, Assertions: 31203, Failures: 3.

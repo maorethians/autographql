@@ -1,0 +1,1 @@
+{"query":"{\n  trees {\n    _id\n    name {\n      default\n    }\n    description\n    isPublished\n    rootNodesId\n  }\n}\n","variables":{},"operation_name":null,"created_at":"2023-05-07 21:40:38","updated_at":"2023-05-07 21:40:38","times_called":1}

@@ -1,0 +1,1 @@
+{"query":"{\n  users {\n    _id\n    email\n    firstname\n    lastname\n    fullname\n  }\n}\n","variables":{},"operation_name":null,"created_at":"2023-05-07 21:43:13","updated_at":"2023-05-07 21:43:13","times_called":1}

@@ -1,0 +1,1 @@
+{"query":"{\n  conferences {\n    id\n  }\n}\n","variables":null,"created_at":"2023-05-05 18:48:29","updated_at":"2023-05-05 19:03:29","times_called":2}

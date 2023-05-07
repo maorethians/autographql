@@ -1,0 +1,1 @@
+{"query":"\n{\n  contact(conferenceId: \"freezing-edge-2020\", contactName: \"Aapeli Haanpuu\") {\n    firstName\n  }\n}\n","variables":null,"created_at":"2023-05-05 18:44:28","updated_at":"2023-05-05 18:44:28","times_called":1}

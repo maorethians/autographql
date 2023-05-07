@@ -1,0 +1,1 @@
+{"query":"{\n  schemas {\n    _id\n    name\n    icon\n    description\n  }\n}\n","variables":{},"operation_name":null,"created_at":"2023-05-07 21:31:28","updated_at":"2023-05-07 21:31:28","times_called":1}

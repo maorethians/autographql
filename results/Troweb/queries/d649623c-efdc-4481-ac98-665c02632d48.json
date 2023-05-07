@@ -1,0 +1,1 @@
+{"query":"{\n  me {\n    isAdmin\n    authorizationRules {\n      operationNames\n      resources {\n        ancestors {\n          title\n        }\n      }\n    }\n    userInfo {\n      _id\n    }\n  }\n}\n","variables":{},"operation_name":null,"created_at":"2023-05-07 21:41:41","updated_at":"2023-05-07 21:41:41","times_called":1}

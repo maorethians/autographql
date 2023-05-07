@@ -1,0 +1,1 @@
+{"query":"{\n  getItems(ids: [\"000000000000000000000000\"]) {\n    _id\n    title\n    parentId\n    externalId\n    subjects {\n      _id\n      title {\n        default\n      }\n      originId\n      ancestors {\n        _id\n      }\n    }\n  }\n}\n","variables":{},"operation_name":null,"created_at":"2023-05-07 21:17:10","updated_at":"2023-05-07 21:17:10","times_called":1}

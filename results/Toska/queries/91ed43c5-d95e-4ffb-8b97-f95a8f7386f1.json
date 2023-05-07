@@ -1,0 +1,1 @@
+{"query":"{\n  series(id: \"future-frontend\") {\n    id\n  }\n}\n","variables":null,"created_at":"2023-05-05 18:59:49","updated_at":"2023-05-05 18:59:49","times_called":1}

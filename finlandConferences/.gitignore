@@ -1,0 +1,16 @@
+.DS_Store
+*.log
+.eslintcache
+node_modules/
+logs/
+attendees/
+build/
+server/types/
+media/scripts/
+utils/*.csv
+utils/google-*
+utils/diversity-*
+.env
+.fusebox
+.scripts
+

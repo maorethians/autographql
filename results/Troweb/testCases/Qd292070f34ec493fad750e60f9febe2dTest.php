@@ -1,0 +1,64 @@
+<?php
+declare(strict_types=1);
+
+namespace GraphQL;
+
+use PHPUnit\Framework\TestCase;
+
+class Qd292070f34ec493fad750e60f9febe2dTest extends TestCase
+{
+
+    public function testGraphQL()
+    {
+        $client = new \GuzzleHttp\Client();
+
+        $query = <<<'JSON'
+{"query":"{\n  internationalizationConfigs {\n    _id\n    isEnabled\n    isDefault\n  }\n}\n","variables":{},"operation_name":null,"created_at":"2023-05-07 21:10:30","updated_at":"2023-05-07 21:10:30","times_called":1}
+JSON;
+
+        
+        $response = $client->request('POST', 'http://localhost:8085/api/v1/graphql', ['body' => $query, 'headers' => ['Content-Type' => 'application/json', 'Authorization' => 'Bearer 123456']]);
+        
+        $this->assertEquals(200, $response->getStatusCode());
+
+        $responseArray = json_decode((string)$response->getBody(), true);
+
+        $this->assertIsArray($responseArray, 'Response is not valid JSON');
+
+        $this->assertArrayNotHasKey('errors', $responseArray, 'Response contains errors');
+
+        $responseContent = $responseArray['data'];
+
+
+        
+        $this->assertArrayHasKey('internationalizationConfigs', $responseContent);
+        
+        $this->assertNotNull($responseContent['internationalizationConfigs']);
+        
+        $this->assertIsArray($responseContent['internationalizationConfigs']);
+        
+        for($g = 0; $g < count($responseContent['internationalizationConfigs']); $g++) {
+        
+        $this->assertNotNull($responseContent['internationalizationConfigs'][$g]);
+        
+        $this->assertArrayHasKey('_id', $responseContent['internationalizationConfigs'][$g]);
+        
+        $this->assertNotNull($responseContent['internationalizationConfigs'][$g]['_id']);
+        
+        $this->assertArrayHasKey('isEnabled', $responseContent['internationalizationConfigs'][$g]);
+        
+        $this->assertNotNull($responseContent['internationalizationConfigs'][$g]['isEnabled']);
+        
+        $this->assertIsBool($responseContent['internationalizationConfigs'][$g]['isEnabled']);
+        
+        $this->assertArrayHasKey('isDefault', $responseContent['internationalizationConfigs'][$g]);
+        
+        $this->assertNotNull($responseContent['internationalizationConfigs'][$g]['isDefault']);
+        
+        $this->assertIsBool($responseContent['internationalizationConfigs'][$g]['isDefault']);
+        
+        }
+        
+
+    }
+}

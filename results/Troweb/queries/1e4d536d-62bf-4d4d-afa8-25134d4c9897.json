@@ -1,0 +1,1 @@
+{"query":"{\n  authorityGroups {\n    _id\n    name\n    updatedAt\n    HTTPHeader\n  }\n}\n","variables":{"query":{"match_all":{}},"sort":[{"_id":"desc"}]},"operation_name":null,"created_at":"2023-05-07 20:55:23","updated_at":"2023-05-07 20:55:23","times_called":3}

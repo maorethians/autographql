@@ -1,0 +1,1 @@
+{"query":"{\n  locations {\n    firstName\n    lastName\n    name\n    about\n    aboutShort\n    company\n    tagline\n    image {\n      title\n    }\n  }\n}\n","variables":null,"created_at":"2023-05-05 18:45:58","updated_at":"2023-05-05 18:45:58","times_called":1}

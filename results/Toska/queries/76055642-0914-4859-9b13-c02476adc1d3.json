@@ -1,0 +1,1 @@
+{"query":"{\n  conferences {\n    id\n    name\n    organizer {\n      aboutShort\n      company\n      tagline\n      noPhotography\n    }\n    year\n    startDate\n    endDate\n    slogan\n    websiteUrl\n    locations {\n      name\n      about\n    }\n  }\n}","variables":null,"created_at":"2023-05-05 18:23:08","updated_at":"2023-05-05 18:23:08","times_called":1}

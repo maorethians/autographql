@@ -1,0 +1,1 @@
+{"query":"{\n  getAppData {\n    recentlyViewed {\n      items {\n        title\n        isCollection\n        parentId\n        schema {\n          _id\n        }\n      }\n      __typename\n    }\n  }\n}\n","variables":{"query":{"match_all":{}},"sort":[{"_id":"desc"}]},"operation_name":null,"created_at":"2023-05-07 20:52:12","updated_at":"2023-05-07 20:52:12","times_called":1}

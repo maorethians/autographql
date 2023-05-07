@@ -1,0 +1,1 @@
+{"query":"{\n  schemas {\n    name\n    icon\n    appearance {\n      sections {\n        name\n      }\n    }\n    description\n  }\n}\n","variables":{},"operation_name":null,"created_at":"2023-05-07 21:31:20","updated_at":"2023-05-07 21:31:20","times_called":1}

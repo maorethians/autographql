@@ -1,0 +1,380 @@
+PHPUnit 9.6.7 by Sebastian Bergmann and contributors.
+
+.....E.E...E......E......E.....E........E...........EE.........  63 / 120 ( 52%)
+.E...E..E.........................E.......E.E.........E..       120 / 120 (100%)
+
+Time: 00:01.313, Memory: 14.00 MB
+
+There were 16 errors:
+
+1) GraphQL\Q0ca40c29210243798d61bfeacdd93b3aTest::testGraphQL
+GuzzleHttp\Exception\ServerException: Server error: `POST http://localhost:3000/graphql` resulted in a `500 Internal Server Error` response:
+{
+  "errors": [
+    {
+      "message": "String cannot represent value: { id: \"freezing-edge\", name: \"Freezing Edge\", (truncated...)
+
+
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Middleware.php:65
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:204
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:153
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/TaskQueue.php:48
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:248
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:224
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:269
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:226
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:62
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Client.php:182
+/home/maorethians/autographql/tool/autographql/testCases/Q0ca40c29210243798d61bfeacdd93b3aTest.php:20
+phpvfscomposer:///home/maorethians/autographql/tool/autographql/testCases/vendor/phpunit/phpunit/phpunit:106
+
+2) GraphQL\Q1346c33f33444da8a10c7ab7285c7d45Test::testGraphQL
+GuzzleHttp\Exception\ServerException: Server error: `POST http://localhost:3000/graphql` resulted in a `500 Internal Server Error` response:
+{
+  "errors": [
+    {
+      "message": "String cannot represent value: { id: \"freezing-edge\", name: \"Freezing Edge\", (truncated...)
+
+
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Middleware.php:65
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:204
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:153
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/TaskQueue.php:48
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:248
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:224
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:269
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:226
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:62
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Client.php:182
+/home/maorethians/autographql/tool/autographql/testCases/Q1346c33f33444da8a10c7ab7285c7d45Test.php:20
+phpvfscomposer:///home/maorethians/autographql/tool/autographql/testCases/vendor/phpunit/phpunit/phpunit:106
+
+3) GraphQL\Q1a31f2b4caa44356b5b4d7dc547d4f93Test::testGraphQL
+GuzzleHttp\Exception\ServerException: Server error: `POST http://localhost:3000/graphql` resulted in a `500 Internal Server Error` response:
+{
+  "errors": [
+    {
+      "message": "String cannot represent value: { id: \"freezing-edge\", name: \"Freezing Edge\", (truncated...)
+
+
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Middleware.php:65
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:204
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:153
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/TaskQueue.php:48
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:248
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:224
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:269
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:226
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:62
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Client.php:182
+/home/maorethians/autographql/tool/autographql/testCases/Q1a31f2b4caa44356b5b4d7dc547d4f93Test.php:20
+phpvfscomposer:///home/maorethians/autographql/tool/autographql/testCases/vendor/phpunit/phpunit/phpunit:106
+
+4) GraphQL\Q2e2f93a1d2884cdba93617ab462c1197Test::testGraphQL
+GuzzleHttp\Exception\ServerException: Server error: `POST http://localhost:3000/graphql` resulted in a `500 Internal Server Error` response:
+{
+  "errors": [
+    {
+      "message": "Cannot return null for non-nullable field Contact.location.",
+      "locations": (truncated...)
+
+
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Middleware.php:65
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:204
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:153
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/TaskQueue.php:48
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:248
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:224
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:269
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:226
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:62
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Client.php:182
+/home/maorethians/autographql/tool/autographql/testCases/Q2e2f93a1d2884cdba93617ab462c1197Test.php:20
+phpvfscomposer:///home/maorethians/autographql/tool/autographql/testCases/vendor/phpunit/phpunit/phpunit:106
+
+5) GraphQL\Q3dde367702064f489a6910f8fd179ca0Test::testGraphQL
+GuzzleHttp\Exception\ServerException: Server error: `POST http://localhost:3000/graphql` resulted in a `500 Internal Server Error` response:
+{
+  "errors": [
+    {
+      "message": "Invalid date",
+      "locations": [
+        {
+          "line": 2,
+          "co (truncated...)
+
+
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Middleware.php:65
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:204
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:153
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/TaskQueue.php:48
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:248
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:224
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:269
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:226
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:62
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Client.php:182
+/home/maorethians/autographql/tool/autographql/testCases/Q3dde367702064f489a6910f8fd179ca0Test.php:20
+phpvfscomposer:///home/maorethians/autographql/tool/autographql/testCases/vendor/phpunit/phpunit/phpunit:106
+
+6) GraphQL\Q464d21115dea415b9626c7e020f2fe8cTest::testGraphQL
+GuzzleHttp\Exception\ServerException: Server error: `POST http://localhost:3000/graphql` resulted in a `500 Internal Server Error` response:
+{
+  "errors": [
+    {
+      "message": "Cannot return null for non-nullable field Contact.location.",
+      "locations": (truncated...)
+
+
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Middleware.php:65
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:204
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:153
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/TaskQueue.php:48
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:248
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:224
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:269
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:226
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:62
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Client.php:182
+/home/maorethians/autographql/tool/autographql/testCases/Q464d21115dea415b9626c7e020f2fe8cTest.php:20
+phpvfscomposer:///home/maorethians/autographql/tool/autographql/testCases/vendor/phpunit/phpunit/phpunit:106
+
+7) GraphQL\Q51d31acbbe2a491c82a3d784d1c8a6f4Test::testGraphQL
+GuzzleHttp\Exception\ClientException: Client error: `POST http://localhost:3000/graphql` resulted in a `400 Bad Request` response:
+{
+  "errors": [
+    {
+      "message": "Field \"fonts\" of type \"Fonts!\" must have a selection of subfields. Did you m (truncated...)
+
+
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Middleware.php:65
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:204
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:153
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/TaskQueue.php:48
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:248
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:224
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:269
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:226
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:62
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Client.php:182
+/home/maorethians/autographql/tool/autographql/testCases/Q51d31acbbe2a491c82a3d784d1c8a6f4Test.php:20
+phpvfscomposer:///home/maorethians/autographql/tool/autographql/testCases/vendor/phpunit/phpunit/phpunit:106
+
+8) GraphQL\Q685f8f27da944cee898f633732f99d27Test::testGraphQL
+GuzzleHttp\Exception\ClientException: Client error: `POST http://localhost:3000/graphql` resulted in a `400 Bad Request` response:
+{
+  "errors": [
+    {
+      "message": "Field \"logos\" of type \"Logos!\" must have a selection of subfields. Did you m (truncated...)
+
+
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Middleware.php:65
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:204
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:153
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/TaskQueue.php:48
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:248
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:224
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:269
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:226
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:62
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Client.php:182
+/home/maorethians/autographql/tool/autographql/testCases/Q685f8f27da944cee898f633732f99d27Test.php:20
+phpvfscomposer:///home/maorethians/autographql/tool/autographql/testCases/vendor/phpunit/phpunit/phpunit:106
+
+9) GraphQL\Q689a16534e9345fa94fdc5b5537d90e3Test::testGraphQL
+GuzzleHttp\Exception\ServerException: Server error: `POST http://localhost:3000/graphql` resulted in a `500 Internal Server Error` response:
+{
+  "errors": [
+    {
+      "message": "String cannot represent value: { id: \"freezing-edge\", name: \"Freezing Edge\", (truncated...)
+
+
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Middleware.php:65
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:204
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:153
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/TaskQueue.php:48
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:248
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:224
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:269
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:226
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:62
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Client.php:182
+/home/maorethians/autographql/tool/autographql/testCases/Q689a16534e9345fa94fdc5b5537d90e3Test.php:20
+phpvfscomposer:///home/maorethians/autographql/tool/autographql/testCases/vendor/phpunit/phpunit/phpunit:106
+
+10) GraphQL\Q8065014c7b51473a851149c8a2230ff5Test::testGraphQL
+GuzzleHttp\Exception\ClientException: Client error: `POST http://localhost:3000/graphql` resulted in a `400 Bad Request` response:
+{
+  "errors": [
+    {
+      "message": "Field \"black\" of type \"WithWithoutText!\" must have a selection of subfields. (truncated...)
+
+
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Middleware.php:65
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:204
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:153
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/TaskQueue.php:48
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:248
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:224
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:269
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:226
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:62
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Client.php:182
+/home/maorethians/autographql/tool/autographql/testCases/Q8065014c7b51473a851149c8a2230ff5Test.php:20
+phpvfscomposer:///home/maorethians/autographql/tool/autographql/testCases/vendor/phpunit/phpunit/phpunit:106
+
+11) GraphQL\Q8b682c4991064d8a801fd517f03e3654Test::testGraphQL
+GuzzleHttp\Exception\ServerException: Server error: `POST http://localhost:3000/graphql` resulted in a `500 Internal Server Error` response:
+{
+  "errors": [
+    {
+      "message": "Contact Amanda wasn't found!",
+      "locations": [
+        {
+          "line":  (truncated...)
+
+
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Middleware.php:65
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:204
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:153
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/TaskQueue.php:48
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:248
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:224
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:269
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:226
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:62
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Client.php:182
+/home/maorethians/autographql/tool/autographql/testCases/Q8b682c4991064d8a801fd517f03e3654Test.php:20
+phpvfscomposer:///home/maorethians/autographql/tool/autographql/testCases/vendor/phpunit/phpunit/phpunit:106
+
+12) GraphQL\Q8ec31dc764c34998a42335229a787f94Test::testGraphQL
+GuzzleHttp\Exception\ServerException: Server error: `POST http://localhost:3000/graphql` resulted in a `500 Internal Server Error` response:
+{
+  "errors": [
+    {
+      "message": "Cannot return null for non-nullable field Contact.location.",
+      "locations": (truncated...)
+
+
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Middleware.php:65
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:204
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:153
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/TaskQueue.php:48
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:248
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:224
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:269
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:226
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:62
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Client.php:182
+/home/maorethians/autographql/tool/autographql/testCases/Q8ec31dc764c34998a42335229a787f94Test.php:20
+phpvfscomposer:///home/maorethians/autographql/tool/autographql/testCases/vendor/phpunit/phpunit/phpunit:106
+
+13) GraphQL\Qd119f720973943f7b3339e05ec9c6344Test::testGraphQL
+GuzzleHttp\Exception\ServerException: Server error: `POST http://localhost:3000/graphql` resulted in a `500 Internal Server Error` response:
+{
+  "errors": [
+    {
+      "message": "Cannot return null for non-nullable field Contact.location.",
+      "locations": (truncated...)
+
+
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Middleware.php:65
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:204
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:153
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/TaskQueue.php:48
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:248
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:224
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:269
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:226
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:62
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Client.php:182
+/home/maorethians/autographql/tool/autographql/testCases/Qd119f720973943f7b3339e05ec9c6344Test.php:20
+phpvfscomposer:///home/maorethians/autographql/tool/autographql/testCases/vendor/phpunit/phpunit/phpunit:106
+
+14) GraphQL\Qe61168fab71d4d279f305551b22086cfTest::testGraphQL
+GuzzleHttp\Exception\ServerException: Server error: `POST http://localhost:3000/graphql` resulted in a `500 Internal Server Error` response:
+{
+  "errors": [
+    {
+      "message": "Contact Aapeli Haanpuu wasn't found!",
+      "locations": [
+        {
+           (truncated...)
+
+
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Middleware.php:65
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:204
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:153
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/TaskQueue.php:48
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:248
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:224
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:269
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:226
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:62
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Client.php:182
+/home/maorethians/autographql/tool/autographql/testCases/Qe61168fab71d4d279f305551b22086cfTest.php:20
+phpvfscomposer:///home/maorethians/autographql/tool/autographql/testCases/vendor/phpunit/phpunit/phpunit:106
+
+15) GraphQL\Qe7555cc909f34fffb68a2056117ba3ebTest::testGraphQL
+GuzzleHttp\Exception\ServerException: Server error: `POST http://localhost:3000/graphql` resulted in a `500 Internal Server Error` response:
+{
+  "errors": [
+    {
+      "message": "Conference id did not match series",
+      "locations": [
+        {
+          "l (truncated...)
+
+
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Middleware.php:65
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:204
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:153
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/TaskQueue.php:48
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:248
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:224
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:269
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:226
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:62
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Client.php:182
+/home/maorethians/autographql/tool/autographql/testCases/Qe7555cc909f34fffb68a2056117ba3ebTest.php:20
+phpvfscomposer:///home/maorethians/autographql/tool/autographql/testCases/vendor/phpunit/phpunit/phpunit:106
+
+16) GraphQL\Qf96d214e9d904abb80759cbedee85538Test::testGraphQL
+GuzzleHttp\Exception\ServerException: Server error: `POST http://localhost:3000/graphql` resulted in a `500 Internal Server Error` response:
+{
+  "errors": [
+    {
+      "message": "String cannot represent value: { id: \"freezing-edge\", name: \"Freezing Edge\", (truncated...)
+
+
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Middleware.php:65
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:204
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:153
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/TaskQueue.php:48
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:248
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:224
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:269
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:226
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/promises/src/Promise.php:62
+/home/maorethians/autographql/tool/autographql/testCases/vendor/guzzlehttp/guzzle/src/Client.php:182
+/home/maorethians/autographql/tool/autographql/testCases/Qf96d214e9d904abb80759cbedee85538Test.php:20
+phpvfscomposer:///home/maorethians/autographql/tool/autographql/testCases/vendor/phpunit/phpunit/phpunit:106
+
+ERRORS!
+Tests: 120, Assertions: 136256, Errors: 16.

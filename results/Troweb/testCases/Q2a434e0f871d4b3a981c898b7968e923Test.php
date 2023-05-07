@@ -1,0 +1,110 @@
+<?php
+declare(strict_types=1);
+
+namespace GraphQL;
+
+use PHPUnit\Framework\TestCase;
+
+class Q2a434e0f871d4b3a981c898b7968e923Test extends TestCase
+{
+
+    public function testGraphQL()
+    {
+        $client = new \GuzzleHttp\Client();
+
+        $query = <<<'JSON'
+{"query":"{\n  getPlans {\n    _id\n    name\n    description\n    totalUsage {\n      storage {\n        bound\n      }\n    }\n    rateLimitation {\n      apiCalls {\n        bound\n        period\n      }\n    }\n    featuresAccessibility {\n      authorization\n    }\n  }\n}\n","variables":{},"operation_name":null,"created_at":"2023-05-07 21:23:54","updated_at":"2023-05-07 21:23:54","times_called":1}
+JSON;
+
+        
+        $response = $client->request('POST', 'http://localhost:8085/api/v1/graphql', ['body' => $query, 'headers' => ['Content-Type' => 'application/json', 'Authorization' => 'Bearer 123456']]);
+        
+        $this->assertEquals(200, $response->getStatusCode());
+
+        $responseArray = json_decode((string)$response->getBody(), true);
+
+        $this->assertIsArray($responseArray, 'Response is not valid JSON');
+
+        $this->assertArrayNotHasKey('errors', $responseArray, 'Response contains errors');
+
+        $responseContent = $responseArray['data'];
+
+
+        
+        $this->assertArrayHasKey('getPlans', $responseContent);
+        
+        $this->assertNotNull($responseContent['getPlans']);
+        
+        $this->assertIsArray($responseContent['getPlans']);
+        
+        for($g = 0; $g < count($responseContent['getPlans']); $g++) {
+        
+        $this->assertNotNull($responseContent['getPlans'][$g]);
+        
+        $this->assertArrayHasKey('_id', $responseContent['getPlans'][$g]);
+        
+        $this->assertNotNull($responseContent['getPlans'][$g]['_id']);
+        
+        $this->assertArrayHasKey('name', $responseContent['getPlans'][$g]);
+        
+        $this->assertNotNull($responseContent['getPlans'][$g]['name']);
+        
+        $this->assertIsString($responseContent['getPlans'][$g]['name']);
+        
+        $this->assertArrayHasKey('description', $responseContent['getPlans'][$g]);
+        
+        if ($responseContent['getPlans'][$g]['description']) {
+        
+        $this->assertIsString($responseContent['getPlans'][$g]['description']);
+        
+        }
+        
+        $this->assertArrayHasKey('totalUsage', $responseContent['getPlans'][$g]);
+        
+        $this->assertNotNull($responseContent['getPlans'][$g]['totalUsage']);
+        
+        $this->assertArrayHasKey('storage', $responseContent['getPlans'][$g]['totalUsage']);
+        
+        $this->assertNotNull($responseContent['getPlans'][$g]['totalUsage']['storage']);
+        
+        $this->assertArrayHasKey('bound', $responseContent['getPlans'][$g]['totalUsage']['storage']);
+        
+        $this->assertNotNull($responseContent['getPlans'][$g]['totalUsage']['storage']['bound']);
+        
+        $this->assertIsString($responseContent['getPlans'][$g]['totalUsage']['storage']['bound']);
+        
+        $this->assertArrayHasKey('rateLimitation', $responseContent['getPlans'][$g]);
+        
+        $this->assertNotNull($responseContent['getPlans'][$g]['rateLimitation']);
+        
+        $this->assertArrayHasKey('apiCalls', $responseContent['getPlans'][$g]['rateLimitation']);
+        
+        $this->assertNotNull($responseContent['getPlans'][$g]['rateLimitation']['apiCalls']);
+        
+        $this->assertArrayHasKey('bound', $responseContent['getPlans'][$g]['rateLimitation']['apiCalls']);
+        
+        $this->assertNotNull($responseContent['getPlans'][$g]['rateLimitation']['apiCalls']['bound']);
+        
+        $this->assertIsInt($responseContent['getPlans'][$g]['rateLimitation']['apiCalls']['bound']);
+        
+        $this->assertArrayHasKey('period', $responseContent['getPlans'][$g]['rateLimitation']['apiCalls']);
+        
+        $this->assertNotNull($responseContent['getPlans'][$g]['rateLimitation']['apiCalls']['period']);
+        
+        $this->assertContains($responseContent['getPlans'][$g]['rateLimitation']['apiCalls']['period'], ['Day', 'Week', 'Month']);
+        
+        $this->assertArrayHasKey('featuresAccessibility', $responseContent['getPlans'][$g]);
+        
+        $this->assertNotNull($responseContent['getPlans'][$g]['featuresAccessibility']);
+        
+        $this->assertArrayHasKey('authorization', $responseContent['getPlans'][$g]['featuresAccessibility']);
+        
+        $this->assertNotNull($responseContent['getPlans'][$g]['featuresAccessibility']['authorization']);
+        
+        $this->assertIsInt($responseContent['getPlans'][$g]['featuresAccessibility']['authorization']);
+        
+        }
+        
+
+    }
+}

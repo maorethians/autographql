@@ -1,0 +1,1 @@
+{"query":"{\n  locations {\n    name\n    talks {\n      description\n      day\n      begin\n      end\n    }\n    workshops {\n      description\n      day\n      begin\n      end\n    }\n    noPhotography\n  }\n}\n","variables":null,"created_at":"2023-05-05 18:48:04","updated_at":"2023-05-05 18:48:04","times_called":1}
